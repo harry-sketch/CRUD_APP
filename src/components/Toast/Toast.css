@@ -1,0 +1,26 @@
+.toast {
+  position: absolute;
+  z-index: 110;
+  width: 50%;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+  bottom: 10%;
+  right: 10%;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toastSuccess {
+  background-color: rgb(33, 207, 33);
+}
+
+.toastWarning {
+  background-color: rgb(235, 169, 48);
+}
+.toastClose {
+  cursor: pointer;
+}
